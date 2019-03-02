@@ -15,6 +15,10 @@ ul {
   list-style-type: none;
 }
 
+nav {
+  margin-bottom: 2rem;
+}
+
 .left-nav-name {
   font-size: 1.2rem;
 }
@@ -34,4 +38,21 @@ ul {
 
 .right-nav > li {
     padding-right: 2.3rem;
+}
+
+/* hero styles */
+
+.hero {
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 1.3rem;
+}
+
+.hero p {
+  margin: 0;
 }
