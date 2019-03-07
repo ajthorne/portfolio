@@ -5,7 +5,7 @@ class Spotlight extends Component {
   render() {
     return (
       <section className="spotlight-container">
-        <img src="http://placekitten.com/500/300"/>
+        <img className="featured-img" src="/assets/booknook1.png"/>
       </section>
     );
   }
