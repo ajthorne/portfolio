@@ -33,7 +33,7 @@ nav {
   float: right;
   display: -webkit-inline-box;
   margin-top: -3rem;
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
 }
 
 .right-nav > li {
@@ -61,10 +61,39 @@ nav {
 /* spotlight styles */
 .spotlight-container {
   width: 80%;
-  padding-top: 2rem;
   margin: 0 auto;
+  background: RGBA(234, 247, 248, .3);
 }
 
 .featured-img {
-  
+  width: 35%;
+  height: auto;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.featured-text {
+  display: inline-block;
+  vertical-align: top;
+  padding: 1rem;
+  width: 50%;
+  font-size: 1.3rem;
+  position: relative;
+  margin-top: 2rem;
+}
+
+.featured-text p {
+  margin-bottom: 5rem;
+}
+
+.featured-text button {
+  display: block;
+  font-size: 1rem;
+  border-radius: .2rem;
+  padding: .7rem;
+  margin-top: 1rem;
+  width: 60%;
+  right: -7.5rem;
+  position: absolute;
+  text-align: left;
 }
